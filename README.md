@@ -20,3 +20,9 @@
 <li>If someone sends the message, broadcast it to other people</li>
 <li>If someone leaves the chat, let others know</li>
 </ul>
+
+# User 1: Mayank Chaudhary
+![Screenshot (18)](https://user-images.githubusercontent.com/49724597/87877500-56988880-c9fc-11ea-9e09-306a95deb2cb.png)
+
+# User 2: Harry
+![Screenshot (19)](https://user-images.githubusercontent.com/49724597/87877502-57c9b580-c9fc-11ea-9ad4-fbe7aac19a47.png)
