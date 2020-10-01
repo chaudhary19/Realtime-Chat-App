@@ -12,6 +12,7 @@ const append = (message, position)=>{
     messageElement.classList.add('message');
     messageElement.classList.add(position)
     messageContainer.append(messageElement);
+    messageContainer.scrollTop = messageContainer.scrollHeight;
     if(position == 'left'){
         console.log('sound is playing');
         audio.play();
