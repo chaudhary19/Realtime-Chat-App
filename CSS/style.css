@@ -63,28 +63,22 @@ h1 {
 }
 
 #send-container {
+  width: 80%;
   display: block;
-  margin: auto;
+  position: relative;
+  margin-left: 10%;
+  top: 5%;
   text-align: center;
-  max-width: 1064px;
-  width: 100%;
 }
 
 #messageInp {
-  width: 91%;
-  height: 50px;
-  border-radius: 95% 4% 97% 5%/4% 60% 4% 60%;
-  outline: none;
-  overflow: scroll;
+  display: none;
+  position: relative;
+  top: 5%;
 }
 .btn {
   border-radius: 6px;
   border: 2px solid black;
   background-color: grey;
-  height: 38px;
-}
-.icons {
-  position: absolute;
-  margin-top: -40px;
-  left: 9%;
+  position: relative;
 }
