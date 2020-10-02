@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+
 .logo{
     display: block;
     margin: auto;
@@ -7,10 +9,32 @@ body{
     background-image: linear-gradient(rgb(158, 160, 180), rgb(214, 186, 214));
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
 h1{
     margin-top: 12px;
+    padding: 5px;
     font-size: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Sansita Swashed', cursive;
     text-align: center;
 }
 
@@ -23,6 +47,9 @@ h1{
     overflow-y: auto;
     margin-bottom: 23px;
     border-radius: 12px;
+    background-image: url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .message{
