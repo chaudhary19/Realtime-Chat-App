@@ -1,6 +1,7 @@
-.logo {
-  display: block;
-  margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+.logo{
+    display: block;
+    margin: auto;
 }
 body {
   height: 100vh;
@@ -16,6 +17,26 @@ body {
   );
   padding: 0px;
   margin: 0px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 
 h1 {
@@ -35,8 +56,9 @@ h1 {
   border-radius: 50px;
 
   border: 15px solid hsla(0, 0%, 100%, 0.5);
-  background: #fff;
-  background-clip: padding-box;
+  background-image: url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .send {
   margin-top: -100px;

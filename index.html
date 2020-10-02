@@ -7,6 +7,7 @@
     <title>LetsChat - Realtime Node Socket.io Chat App</title>
     <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script defer src="JS/client.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
@@ -23,11 +24,16 @@
     </nav>
 
     <div class="container">
-        <!-- <div class="message left">harry: bhai kaisa hai tu</div>
-        <div class="message right">mayank: bhai mai acha tu bta bus</div> -->
+        <div class="message left">harry: bhai kaisa hai tu</div>
+        <div class="message right">mayank: bhai mai acha tu bta bus</div>
+        <div class="message left">harry: bhai kaisa hai tu</div>
+        <div class="message right">mayank: bhai mai acha tu bta bus</div>
+        <div class="message left">harry: bhai kaisa hai tu</div>
+        <div class="message right">mayank: bhai mai acha tu bta bus</div>
     </div>
 
     <div class="send">
+
         <form action="#" id="send-container">
             <input type="text" name="messageInp" id="messageInp">
             <script>
@@ -38,7 +44,7 @@
                     });
                 })
             </script>
-            <button class="btn" type="submit">Send</button>
+            <button class="btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
         </form>
     </div>
 </body>
