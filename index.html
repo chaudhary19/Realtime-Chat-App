@@ -32,23 +32,20 @@
         <div class="message right">mayank: bhai mai acha tu bta bus</div>
     </div>
 
-    <div class="send">
+    
+    <form action="#" id="send-container">
+        <input type="text" name="messageInp" class="messageInp">
+        <script>
+            $(document).ready(function () {
+                $("#messageInp").emojioneArea({
+                    pickerPosition: "top",
 
-
-        <form action="#" id="send-container">
-            <input type="text" name="messageInp" id="messageInp">
-            <script>
-                $(document).ready(function () {
-                    $("#messageInp").emojioneArea({
-                        pickerPosition: "top",
-
-                    });
-                })
-            </script>
-            <button class="btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
-        </form>
+                });
+            })
+        </script>
+        <button class="btn" type="submit"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
+    </form>
  
-    </div>
 </body>
 
 </html>
