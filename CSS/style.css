@@ -60,10 +60,6 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.send {
-  margin-top: -100px;
-  width: 100%;
-}
 
 .message {
   background-color: grey;
@@ -84,23 +80,22 @@ h1 {
   clear: both;
 }
 
-#send-container {
-  width: 80%;
-  display: block;
-  position: relative;
-  margin-left: 10%;
-  top: 5%;
-  text-align: center;
-}
-
-#messageInp {
-  display: none;
-  position: relative;
-  top: 5%;
+.messageInp {
+  width: 70%;
+  height: 30px;
+  margin-left: 12%;
+  border: 2px solid black;
+  border-radius: 6px;
 }
 .btn {
+  cursor: pointer;
   border-radius: 6px;
   border: 2px solid black;
   background-color: grey;
-  position: relative;
+  width: 6%;
+  height:34px;
+}
+input[type="text"] {
+  text-align: center;
+  color: blue;
 }
